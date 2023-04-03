@@ -1,0 +1,69 @@
+{% extends 'blog/base.html' %}
+    {% load static %}
+    {% block msg %}
+                {% if messages %}
+                    {% for message in messages %}
+                    <br><br>
+                        <div {% if message.tags %}  class="alert alert-{{message.tags}} alert-dismissible fade show" {% endif %}>
+                            <strong>{{message}}</strong>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+
+    {% endblock msg %}
+    {% block side %}
+            <div class="col-sm-2 text-white my-5 text-center">
+                <h4 class="my-5"> Profile</h4>
+                <h5>{{fullname}}</h5>
+                {% for group in groups %}
+                    <p>{{group.name}}</p>
+                {% endfor %}
+                
+            </div>
+
+
+    {% endblock side %}
+        {% block content %} 
+            <div class="col-sm-10">
+                <h1 class="text-white my-5">Dashboard</h1>
+                <a href="{% url 'addpost' %}" class="btn btn-success">Add Post</a>
+                <h3 class="text-center alert alert-info mt-3">Show Post</h3>
+                {% if posts %}
+                <table class="table table-hover"  class="pad">
+                    <thead>
+                      <tr class="text-center">
+                        <th scope="col" class="pad bor">ID</th>
+                        <th scope="col" class="pad bor">Title</th>
+                        <th scope="col" class="pad bor"> Description</th>
+                        <th scope="col" class="pad bor width">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        {% for post in posts %}
+                            <tr> 
+                                
+                                <th scope="row"  class="pad bor">{{post.id}}</th>
+                                <td  class="pad bor">{{post.title}}</td>
+                                <td  class="pad bor">{{post.desc}}</td>
+                                <td  class="text-center pad">
+                                    <a href="{% url 'updatepost' post.id %}" class="button  btn btn-warning">Edit</a>
+                                {% if perms.blog.delete_post %}
+                                    <form action="{% url 'deletepost' post.id %}" method="POST" class="d-inline">
+                                        {% csrf_token %}
+                                        <input type="submit" value="Delete" class="button btn  btn-danger">
+                                    </form>
+
+                                {% endif %}
+                                </td>
+                            
+                            </tr>
+                        {% endfor %}
+                  </table>
+
+                  {% endif %}
+            </div>
+            
+        {% endblock content %}

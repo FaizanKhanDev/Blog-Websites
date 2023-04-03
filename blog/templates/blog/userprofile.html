@@ -1,0 +1,23 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+{% if messages %}
+    {% for message in messages %}
+            {{message}}
+     {% endfor %}   
+{% endif %}
+  <form method="POST" novalidate>
+    {% csrf_token %}
+        {% for fm in form %}
+
+            <div class="form-group">  
+                {{fm.label_tag}} {{fm}} {{fm.errors|striptags}}
+            
+            </div>
+
+        {% endfor %} <br>
+        <input type="submit" value="Update" class="btn btn-danger">
+    </form>
+   
+
+{% endblock content %}

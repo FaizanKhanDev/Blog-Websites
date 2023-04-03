@@ -1,0 +1,278 @@
+body{
+    background-color: rgb(75, 74, 74);
+    color: antiquewhite;
+}
+.form-control {
+    background-color: rgb(177, 168, 168)!important;
+}
+.jumbo-color{
+    background-color: rgb(83, 81, 81);
+    padding:20px;
+}
+.divi{
+    background-color: #4b4a4a !important;
+    width: 120% !important;
+    height: 50px !important;
+    margin-left: -50px;
+   
+}
+.pad{
+    padding: 30px !important;
+    background-color: #fff !important;
+}
+.bor{
+    border-right: 1px solid #055160 !important;
+  
+}
+.button:nth-of-type(1){
+    text-decoration: none !important;
+    display: inline-flex;
+   color: #fff;
+   border: 2px solid #ffc107 !important;
+}
+.button:nth-of-type(2){
+    text-decoration: none !important;
+    display: inline-flex;
+   color: #fff;
+   border: 2px solid #dc3545 !important;
+}
+.button:nth-of-type(1):hover{
+    background-color: transparent !important;
+    border: 2px solid #ffc107 !important;
+    color: #ffc107;
+}
+.button:nth-of-type(2):hover{
+    background-color: transparent !important;
+    border: 2px solid #dc3545 !important;
+    color: #dc3545;
+}
+.width{
+    width:200px;
+    
+
+}
+.h1{
+    font-weight: 600 !important;
+    color: #fff !important;
+}
+.desc{
+   
+    color: #fff !important;
+  
+}
+
+.form-group{
+    outline: none !important;
+}
+.errorlist{
+    list-style-type: none !important;
+    color:orange;
+  
+}
+
+#id_last_login{
+    display: block;
+    width: 100%;
+    outline: none !important;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgb(177, 168, 168)!important;;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out; 
+   
+}
+
+label{
+    display: flex;
+}
+#id_groups{
+    outline: none !important;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgb(177, 168, 168)!important;;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out;
+}
+#id_user_permissions{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgb(177, 168, 168)!important;;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out;
+}
+
+#id_username{
+    outline: none !important;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgb(177, 168, 168)!important;;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out;
+}
+
+
+#id_first_name{
+    outline: none !important;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgb(177, 168, 168)!important;;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out;
+}
+#id_last_name{
+    outline: none !important;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgb(177, 168, 168)!important;;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out;
+}
+#id_email{
+    display: block;
+    outline: none !important;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgb(177, 168, 168)!important;;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out;
+}
+#id_date_joined{
+    display: block;
+    outline: none !important;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgb(177, 168, 168)!important;;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out;
+}
+#initial-id_date_joined{
+    display: block;
+    width: 100%;
+    outline: none !important;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    outline: none !important;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgb(177, 168, 168)!important;;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out;
+}
+#id_password1{
+    display: block;
+    outline: none !important;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgb(177, 168, 168)!important;;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out;
+}
+#id_password2{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    outline: none !important;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgb(177, 168, 168)!important;;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out;
+}
