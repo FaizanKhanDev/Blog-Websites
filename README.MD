@@ -18,6 +18,13 @@
 <p> python manage.py runserver </p>
 
 
+`````
+When the project Run successFully go to AdminPanel and Create Group name "Author" 
+and Give them permission what's You want
+Enjoy the Project
+ ````
+
+
 
 
 
