@@ -2,7 +2,7 @@
 <h1> Django Blogger </h1>
 
 <h6> Python 3.11.1 (python version) </h6>
-<p>Django==4.1.4 (Django version) </p>
+<h5>Django==4.1.4 (Django version) </h5>
 
 
 <h2> Project Name blog </h2>
