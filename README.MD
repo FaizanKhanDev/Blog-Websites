@@ -1,4 +1,4 @@
-## Before setuping App please read this File Carefully
+## Before setuping App please Read this File Carefully
 <h1> Django Blog Website </h1>
 
 <h6> Python 3.11.1 (python version) </h6>
